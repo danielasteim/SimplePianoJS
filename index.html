@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Piano</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://fav.farm/🎹" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="stretched-keys">
+      <title>STRETCHED</title>
+      <div class="keys">
+        <div data-key="81" class="key">
+          <kbd>DO</kbd>
+          <span class="sound">q</span>
+        </div>
+        <div data-key="87" class="key">
+          <kbd>RE</kbd>
+          <span class="sound">w</span>
+        </div>
+        <div data-key="69" class="key">
+          <kbd>MI</kbd>
+          <span class="sound">e</span>
+        </div>
+        <div data-key="82" class="key">
+          <kbd>FA</kbd>
+          <span class="sound">r</span>
+        </div>
+        <div data-key="84" class="key">
+          <kbd>SOL</kbd>
+          <span class="sound">t</span>
+        </div>
+        <div data-key="89" class="key">
+          <kbd>LA</kbd>
+          <span class="sound">y</span>
+        </div>
+        <div data-key="85" class="key">
+          <kbd>SI</kbd>
+          <span class="sound">u</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="default-keys">
+      <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>DO</kbd>
+          <span class="sound">a</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>RE</kbd>
+          <span class="sound">s</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>MI</kbd>
+          <span class="sound">d</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>FA</kbd>
+          <span class="sound">f</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>SOL</kbd>
+          <span class="sound">g</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>LA</kbd>
+          <span class="sound">h</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>SI</kbd>
+          <span class="sound">j</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio data-key="81" src="sounds/do-stretched.wav"></audio>
+  <audio data-key="87" src="sounds/re-stretched.wav"></audio>
+  <audio data-key="69" src="sounds/mi-stretched.wav"></audio>
+  <audio data-key="82" src="sounds/fa-stretched.wav"></audio>
+  <audio data-key="84" src="sounds/sol-stretched.wav"></audio>
+  <audio data-key="89" src="sounds/la-stretched.wav"></audio>
+  <audio data-key="85" src="sounds/si-stretched.wav"></audio>
+
+  <audio data-key="65" src="sounds/do.wav"></audio>
+  <audio data-key="83" src="sounds/re.wav"></audio>
+  <audio data-key="68" src="sounds/mi.wav"></audio>
+  <audio data-key="70" src="sounds/fa.wav"></audio>
+  <audio data-key="71" src="sounds/sol.wav"></audio>
+  <audio data-key="72" src="sounds/la.wav"></audio>
+  <audio data-key="74" src="sounds/si.wav"></audio>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
